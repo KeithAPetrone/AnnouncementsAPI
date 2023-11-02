@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jSg9vlClcXn95Hg/aE/QIqlzvveTFh2Jhm+es1g/7Zuj9XclpKgSwUUkxh9EhoHpkDBK41Y87yhPN0c+yfQ+MA==",
+  "dgSpecHash": "VgmOVRDv12Qm2Rl0qzVfqlLzoFtijxNfPykLJRJlk+30gSCFD6+guyC1mzntBWPIJsO28c0mCILc5Mk5SgO00Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\keith\\Desktop\\AnnouncementsAPI\\AnnouncementAPI\\AnnouncementAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\keith\\.nuget\\packages\\markdig\\0.33.0\\markdig.0.33.0.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",

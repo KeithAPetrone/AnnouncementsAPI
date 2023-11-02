@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace AnnouncementAPI.Controllers
 {
@@ -8,36 +9,24 @@ namespace AnnouncementAPI.Controllers
     {
         private readonly ILogger<AnnouncementController> _logger;
 
+        public static AnnouncementSingleton announcements = new AnnouncementSingleton();
+
         public AnnouncementController(ILogger<AnnouncementController> logger)
         {
             _logger = logger;
         }
-
-        [HttpGet(Name = "GetAnnouncement")]
-        public IEnumerable<Announcement> Get()
+        
+        [HttpGet(Name = "GetAnnouncements")]
+        public IEnumerable<Announcement> Get(int numPerPage, int pageNum)
         {
-            yield return new Announcement();
+            return announcements.GetAllAnnouncements(numPerPage, pageNum);
         }
 
         [HttpPost(Name = "CreateAnnouncement")]
-        public IEnumerable<Announcement> Create(string author, DateTime date, string subject, string body)
+        public void Create(string author, string subject, string body)
         {
-            Announcement announcement = new Announcement(author, date, subject, body);
-            yield return new Announcement();
-        }
-
-        [HttpPost(Name = "UpdateAnnouncement")]
-        public IEnumerable<Announcement> Update(string author, DateTime date, string subject, string body)
-        {
-            Announcement announcement = new Announcement(author, date, subject, body);
-            yield return new Announcement();
-        }
-
-        [HttpPost(Name = "DeleteAnnouncement")]
-        public IEnumerable<Announcement> Delete(string author, DateTime date, string subject, string body)
-        {
-            Announcement announcement = new Announcement(author, date, subject, body);
-            yield return new Announcement();
+            Announcement announcement = new Announcement(author, subject, body);
+            announcements.CreateAnnouncement(announcement);
         }
     }
 }
