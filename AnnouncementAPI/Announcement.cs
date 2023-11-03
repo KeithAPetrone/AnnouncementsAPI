@@ -1,6 +1,3 @@
-using Markdig;
-using Markdig.Syntax;
-
 namespace AnnouncementAPI
 {
     public class Announcement
@@ -18,18 +15,12 @@ namespace AnnouncementAPI
             Body = string.Empty;
         }
 
-        public Announcement(string announcement)
+        public Announcement(string author, string subject, string body)
         {
-            var document = Markdown.Parse(announcement);
-
-            document.Select(b => b as HeadingBlock)
-                            .Where(b => b != null)
-                            .Select(hb => hb.Inline.FirstChild.ToString());
-
-            //Author = author;
+            Author = author;
             Date = DateTime.Now.Date;
-            //Subject = subject;
-            //Body = body;
+            Subject = subject;
+            Body = body;
         }
     }
 }

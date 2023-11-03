@@ -64,3 +64,4 @@ C:\Users\keith\Desktop\AnnouncementsAPI\AnnouncementAPI\obj\Debug\net7.0\scopedc
 C:\Users\keith\Desktop\AnnouncementsAPI\AnnouncementAPI\obj\Debug\net7.0\AnnouncementAPI.csproj.CopyComplete
 C:\Users\keith\Desktop\AnnouncementsAPI\AnnouncementAPI\obj\Debug\net7.0\AnnouncementAPI.genruntimeconfig.cache
 C:\Users\keith\Desktop\AnnouncementsAPI\AnnouncementAPI\obj\Debug\net7.0\ref\AnnouncementAPI.dll
+C:\Users\keith\Desktop\AnnouncementsAPI\AnnouncementAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "VgmOVRDv12Qm2Rl0qzVfqlLzoFtijxNfPykLJRJlk+30gSCFD6+guyC1mzntBWPIJsO28c0mCILc5Mk5SgO00Q==",
+  "dgSpecHash": "s2MwXV1LudVXSkWhU1HqfGqHtkB99RIzNMOttS7DK6kGPNS6dAFE8D/gbozvdB/uT9jFbw/F4Rpkbm/eqxai2g==",
   "success": true,
   "projectFilePath": "C:\\Users\\keith\\Desktop\\AnnouncementsAPI\\AnnouncementAPI\\AnnouncementAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\keith\\.nuget\\packages\\markdig\\0.33.0\\markdig.0.33.0.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\keith\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\keith\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
